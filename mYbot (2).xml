@@ -1,18 +1,18 @@
 <context>
-    <input pattern="Ïðèâåò, Íèêà">
-        <output value="Çäðàâñòâóé"/>
+    <input pattern="ÐŸÑ€Ð¸Ð²ÐµÑ‚,ÐÐ¸Ðº">
+        <output value="Ð—Ð´Ñ€Ð°Ð²ÑÑ‚Ð²ÑƒÐ¹"/>
     </input>
-    <input pattern="* êàê * äåëà*">
-        <output value="Íîðì! À òâîè?"/>
+    <input pattern="* ÐºÐ°Ðº * Ð´ÐµÐ»Ð°*">
+        <output value="ÃÃ®Ã°Ã¬! Ã€ Ã²Ã¢Ã®Ã¨?"/>
         <context modal="true">
-            <input pattern="* (õîðîø*|îòëè÷í*|ïðåêðàñí*) *">
+            <input pattern="* (ÃµÃ®Ã°Ã®Ã¸*|Ã®Ã²Ã«Ã¨Ã·Ã­*|Ã¯Ã°Ã¥ÃªÃ°Ã Ã±Ã­*) *">
                 <output>
-                    <item value="Ýòî ïðîñòî çàìå÷àòåëüíî!"/>
-                    <item value="Çäîðîâî!"/>
+                    <item value="ÃÃ²Ã® Ã¯Ã°Ã®Ã±Ã²Ã® Ã§Ã Ã¬Ã¥Ã·Ã Ã²Ã¥Ã«Ã¼Ã­Ã®!"/>
+                    <item value="Ã‡Ã¤Ã®Ã°Ã®Ã¢Ã®!"/>
                 </output>
             </input>
-            <input pattern="* (ïëîõ*|íå î÷åíü|òàê ñåáå) *">
-                <output value="Íå âåøàé íîñ!"/>
+            <input pattern="* (Ã¯Ã«Ã®Ãµ*|Ã­Ã¥ Ã®Ã·Ã¥Ã­Ã¼|Ã²Ã Ãª Ã±Ã¥Ã¡Ã¥) *">
+                <output value="ÃÃ¥ Ã¢Ã¥Ã¸Ã Ã© Ã­Ã®Ã±!"/>
             </input>
         </context>
     </input>
