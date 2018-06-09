@@ -1,19 +1,20 @@
 <context>
-    <input pattern="Привет,Ник">
+    <input pattern="Привет, Ника">
         <output value="Здравствуй"/>
     </input>
     <input pattern="* как * дела*">
-        <output value="Íîðì! À òâîè?"/>
+        <output value="Норм! А твои?"/>
         <context modal="true">
-            <input pattern="* (õîðîø*|îòëè÷í*|ïðåêðàñí*) *">
+            <input pattern="* (хорош*|отличн*|прекрасн*) *">
                 <output>
-                    <item value="Ýòî ïðîñòî çàìå÷àòåëüíî!"/>
-                    <item value="Çäîðîâî!"/>
+                    <item value="Это просто замечательно!"/>
+                    <item value="Здорово!"/>
                 </output>
             </input>
-            <input pattern="* (ïëîõ*|íå î÷åíü|òàê ñåáå) *">
-                <output value="Íå âåøàé íîñ!"/>
+            <input pattern="* (плох*|не очень|так себе) *">
+                <output value="Не вешай нос!"/>
             </input>
         </context>
     </input>
 </context>
+
